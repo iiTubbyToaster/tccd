@@ -1,0 +1,54 @@
+"tccd"
+{
+	"base"		"base"
+	"title"		"The Combine Carnage Defence"
+	"maps"		""
+	"menusystem"	"1"
+
+
+	"settings"
+	{
+		1
+		{
+			"name"		"tccd_squadspawntimer"
+			"text"		"Seconds between spawning squads"
+			"help"		"The number that you will enter here will be the amount of time it will take for the next squad to spawn"
+			"type"		"Numeric"
+			"default"	"30"
+		}
+		2
+		{
+			"name"		"tccd_combineassasin"
+			"text"		"Enable Combine Assasin?"
+			"help"		"This will add the Combine Assasin into the game."
+			"type"		"CheckBox"
+			"default"	"0"
+		}
+		3
+		{
+			"name"		"tccd_combinecremator"
+			"text"		"Enable Cremator?"
+			"help"		"This will add the Combine Cremator into the game."
+			"type"		"CheckBox"
+			"default"	"0"
+		}
+		4
+		{
+			"name"		"tccd_paydaymusic"
+			"text"		"Do you want music from PAYDAY2 to be played during gameplay?"
+			"help"		"If you like the music from PAYDAY2 make sure you enable this"
+			"type"		"CheckBox"
+			"default"	"0"
+		}
+		5
+		{
+			"name"		"tccd_starttimer"
+			"text"		"How long until the game starts?"
+			"help"		"When you spawn, you will get the amount of time you entered to do..."
+			"type"		"Numeric"
+			"default"	"25"
+		}
+
+	}
+
+}
